@@ -29,9 +29,10 @@
 
 <meta property="og:description" content="Random Forest: "rf". Regression and classification.
 Implemented via ranger.
-mtry: Number of variables to consider for each split
+mtry: Fraction of variables to consider for each split
 splitrule: Splitting rule. For classification either "gini" or
-  "extratrees". For regression either "variance" or "extratrees".
+  "extratrees". For regression either "variance", "extratrees", or
+  "maxstat".
 min.node.size: Minimal node size.
 " />
 
@@ -163,9 +164,10 @@ kernal: Kernal to use. Possible choices are "rectangular" (standard
     
     <p><strong>Random Forest</strong>: "rf". Regression and classification.
 Implemented via <code>ranger</code>.</p><ul>
-<li><p>mtry: Number of variables to consider for each split</p></li>
+<li><p>mtry: Fraction of variables to consider for each split</p></li>
 <li><p>splitrule: Splitting rule. For classification either "gini" or
-  "extratrees". For regression either "variance" or "extratrees".</p></li>
+  "extratrees". For regression either "variance", "extratrees", or
+  "maxstat".</p></li>
 <li><p>min.node.size: Minimal node size.</p></li>
 </ul>
 
